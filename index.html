@@ -17,6 +17,7 @@
         <div id="container">
           <fieldset>
             <legend>Sign up to get monthly updates on Christian Youth events. Please fill out the following information.</legend>
+            
             <div>
               <label>Full Name:</label>
               <input class="forminput" type="text" name="Full Name" placeholder="John Smith" autocomplete="on" required>
@@ -32,7 +33,15 @@
             <div>
               <label>Date of Birth:</label>
               <input class="forminput" type="text" name="Date of Birth" placeholder="mm/dd/yyyy" autocomplete="on" required>
-            </div>			
+            </div>
+            <div>
+              <label for="gender">Gender:</label>
+              <select class="forminput" id="gender" name="Gender" required>
+                <option value="" disabled selected>Select your gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </div>
             <input type="submit" name="submit" id="submit" value="Register for monthly Christian Youth Events">
           </fieldset>
         </div>
