@@ -23,3 +23,30 @@ legend {
 fieldset {
     border-color: #d4e9e2; 
 }
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 3px;
+    background-color: #fefefe; 
+    box-shadow: 0 0 11px rgba(171, 235, 198, 0.5); 
+}
+
+label {
+    color: #4d5752; 
+    font-size: 1em;
+    font-family: 'Playfair Display', 'Anta', 'Roboto', serif;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: #d4e9e2; 
+    border: 2px solid #a3c6c4;
+    border-radius: 5px;
+    color: #4d5752; 
+}
