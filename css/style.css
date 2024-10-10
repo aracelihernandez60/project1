@@ -14,14 +14,14 @@ h1 {
 }
 
 legend {
-    color: #8aa6a3; 
+    color: #6b91a8;
     font-size: 1em;
     font-family: 'Playfair Display', 'Anta', 'Roboto', serif;
     text-align: center;
 }
 
 fieldset {
-    border-color: #d4e9e2; 
+    border-color: #b8d0db; 
 }
 
 form {
@@ -30,11 +30,11 @@ form {
     padding: 20px;
     border-radius: 3px;
     background-color: #fefefe; 
-    box-shadow: 0 0 11px rgba(171, 235, 198, 0.5); 
+    box-shadow: 0 0 11px rgba(233, 196, 241, 0.5);
 }
 
 label {
-    color: #4d5752; 
+    color: #37474f; 
     font-size: 1em;
     font-family: 'Playfair Display', 'Anta', 'Roboto', serif;
     display: block;
@@ -45,15 +45,16 @@ input {
     width: 95%;
     padding: 12px;
     margin-bottom: 20px;
-    background-color: #d4e9e2; 
-    border: 2px solid #a3c6c4;
+    background-color: #fbe8d3;
+    border: 2px solid #f0b7a4; 
     border-radius: 5px;
-    color: #4d5752; 
+    color: #37474f; 
 }
+
 input[type="submit"] {
     font-family: 'Playfair Display', 'Anta', 'Roboto', serif;
-    background-color: #a3c6c4; 
-    color: #fff;
+    background-color: #c1e1c5; 
+    color: #37474f;
     padding: 15px;
     border: none;
     border-radius: 4px;
@@ -64,7 +65,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     transform: scale(1.07);
-    background-color: #91b8b3; 
+    background-color: #a9d4b2;
 }
 
 @media (min-width: 600px) {
