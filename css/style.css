@@ -41,7 +41,7 @@ label {
     margin-bottom: 10px;
 }
 
-input {
+input, select {
     width: 95%;
     padding: 12px;
     margin-bottom: 20px;
@@ -49,6 +49,7 @@ input {
     border: 2px solid #7fb3d5; 
     border-radius: 5px;
     color: #2c3e50; 
+    font-size: 1em;
 }
 
 input[type="submit"] {
@@ -98,7 +99,7 @@ input[type="submit"]:hover {
         font-size: 1.5em;
     }
 
-    label, input {
+    label, input, select {
         font-size: 1.25em;
     }
 
