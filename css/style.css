@@ -4,7 +4,6 @@ body {
     margin-left: 10%;
     margin-right: 10%;
 }
-
 h1 {
     color: #517fa4; 
     font-weight: bold;
@@ -12,18 +11,15 @@ h1 {
     font-family: 'Playfair Display', 'Anta', 'Roboto', serif;
     text-align: center;
 }
-
 legend {
     color: #517fa4; 
     font-size: 1em;
     font-family: 'Playfair Display', 'Anta', 'Roboto', serif;
     text-align: center;
 }
-
 fieldset {
     border-color: #bdd7e6; 
 }
-
 form {
     max-width: 500px;
     margin: 20px auto;
@@ -32,7 +28,6 @@ form {
     background-color: #fefefe;
     box-shadow: 0 0 11px rgba(173, 203, 227, 0.5); 
 }
-
 label {
     color: #2c3e50; 
     font-size: 1em;
@@ -40,7 +35,6 @@ label {
     display: block;
     margin-bottom: 10px;
 }
-
 input, select {
     width: 95%;
     padding: 12px;
@@ -51,7 +45,6 @@ input, select {
     color: #2c3e50; 
     font-size: 1em;
 }
-
 input[type="submit"] {
     font-family: 'Playfair Display', 'Anta', 'Roboto', serif;
     background-color: #85c1e9; 
@@ -63,27 +56,22 @@ input[type="submit"] {
     width: 100%;
     height: 70%;
 }
-
 input[type="submit"]:hover {
     transform: scale(1.07);
     background-color: #5dade2; 
 }
-
 @media (min-width: 600px) {
     form {
         max-width: 100%;
     }
-
     #container {
         margin-left: 15%;
         margin-right: 15%;
     }
-
     h1 {
         font-size: 2.5em;
     }
 }
-
 @media (min-width: 1200px) {
     #container {
         width: 80%;
@@ -94,15 +82,12 @@ input[type="submit"]:hover {
     h1 {
         font-size: 3.5em;
     }
-
     legend {
         font-size: 1.5em;
     }
-
     label, input, select {
         font-size: 1.25em;
     }
-
     input[type="submit"] {
         width: 99%;
         cursor: pointer;
